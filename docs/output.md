@@ -127,7 +127,7 @@ Annotation performed by the variant effect predictor (VEP) software.
 <summary>Output files</summary>
 
 - `reports/HTML/`
-  - `report_*/`: Folder containing HTML and Excel file for final report. Index.html contains main HTML report file.
+  - `report_*/`: Folder containing HTML for final report. Index.html contains main HTML report file.
   </details>
 
 #### Tumor mutational burden
