@@ -7,7 +7,7 @@ datasets:
   ?for group in groupnames:
     ?f"{group}":
       path: ?f"{prefix}-{group}.tsv"
-      offer-excel: true
+      offer-excel: false
       separator: "\t"
       headers: 1
       #create links between all groups using the variant id to find the exact entry
