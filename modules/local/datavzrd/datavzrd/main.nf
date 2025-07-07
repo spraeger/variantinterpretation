@@ -22,6 +22,7 @@ process DATAVZRD {
     def prefix = task.ext.prefix ?: "${meta.id}"
 
     """
+    export TMPDIR=`pwd`; \\
     datavzrd $args \\
         $datavzrd_config_rend \\
         --output report_${prefix}
